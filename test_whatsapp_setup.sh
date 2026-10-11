@@ -1,0 +1,15 @@
+#!/bin/bash
+# Deploy WhatsApp chatbot (Flask webhook)
+echo "=== WhatsApp Bot Setup ==="
+echo "1. Create .env file with:"
+echo "WHATSAPP_TOKEN=<your_token>"
+echo "NUMBER_0N=<your_phone_id>"
+echo ""
+echo "2. Run: pip install flask requests"
+echo ""
+echo "3. Start: python3 whatsapp_chatbot.py"
+echo "4. Webhook URL to WhatsApp Business: https://your-server.com/"
+echo ""
+echo "File created: needle/whatsapp_chatbot.py"
+echo "It uses faq_lookup from cli_chatbot.py for Needle 3 AI answers."
+echo "When deployed on a server, WhatsApp sends messages here and this replies."
